@@ -1,0 +1,370 @@
+@charset "UTF-8";
+
+.header{
+	/* background-color: #9d8cbc;  */
+	height: 400px;
+	background-image: linear-gradient(#B1A4CA, white);
+}
+.header2{
+	height: 400px;
+	background-image: linear-gradient(white, #9d8cbc);	
+}
+.header-photo{
+	height: 340px;
+	width: 1100px;
+	margin-top: 10px;
+	margin-left: 15%;
+	box-shadow: 10px 10px 5px grey;
+	
+}
+
+.header-photo:hover{
+	/* transform: scale(1.1);  */
+}
+.title {
+	display: inline-block;
+	font-size: 50px;
+	font-family: 'Rubik Mono One', sans-serif;
+	margin-left: 26%;
+	margin-top: 30px;
+}
+
+.title2 {
+	display: inline-block;
+	font-size: 40px;
+	font-family: 'Rubik Mono One', sans-serif;
+	margin-left: 34%;
+	margin-top: 30px;
+	color: white;
+}
+.title3{
+	display: inline-block;
+	font-size: 40px;
+	font-family: 'Rubik Mono One', sans-serif;
+	margin-left: 33%;
+	margin-top: 30px;
+}
+.title4{
+	display: block;
+	font-size: 40px;
+	font-family: 'Rubik Mono One', sans-serif;
+	/* margin-left: 40%; */ 
+/* 	margin-top: 30px;
+	color: white; */
+}
+.logo{
+	display: inline-block;
+	height: 60px;
+	width:60px;
+	margin-top: 5px;
+	margin-left: 5%;
+	border-radius: 50%;
+	box-shadow: 10px 10px grey;
+}
+.create-btn{
+	display: inline-block;
+	margin-left: 80%;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 30px;
+	
+}
+.create-btn-account{
+	display: inline-block;
+	margin-left: 6%;
+	margin-bottom: 10px;
+	font-size: 30px;
+	
+}
+.create-btn-login{
+	display: inline-block;
+	margin-left: 25%;
+	margin-bottom: 10px;
+	font-size: 30px;
+	
+}
+.create-btn2{
+	display: inline-block;
+	margin-left: 85%;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 30px;
+	
+}
+.info {
+	font-size: 30px;
+	font-family: 'Rubik Mono One', sans-serif;
+	margin-top: 100px;
+	margin-left: 43%;
+	text-shadow: 5px 7px #A291BF;
+}
+.artist{
+	margin-left: 90px;
+	height: 150px;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 10px 10px 5px grey;
+}
+.artist2{
+	margin-top: 100px;
+	margin-left: 42%;
+	height: 220px;
+	width: 230px;
+}
+.artist3{
+	margin-top: 100px;
+	margin-left: 42%;
+	height: 220px;
+	width: 230px;
+	border: 1px solid white;
+}
+.artist2:hover{
+	transform: scale(1.1); 
+}
+.artist:hover{
+	transform: scale(1.1); 
+}
+
+.image1{
+	height: 1000px; 
+	width: 1100px; 
+	background-size: cover;
+	background-image: url(/portal_content/images/headphones.jpg);
+	background-repeat: no-repeat;
+}
+
+.image2{
+	width: 100%; 
+	height: 1300px;
+	background-size: cover;
+	background-image: url(/portal_content/images/record.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+.image3{
+	width: 100%; 
+	height: 1100px;
+	background-size: cover;
+	background-image: url(/portal_content/images/piano2.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+.reg-header{
+	height: 200px;
+	background-image: linear-gradient(white, #368FCC, black);
+}
+.reg-form{
+	display: inline-block; 
+	margin-top: 150px;
+	margin-left: 380px;
+	width: 300px;
+	color: #A8D0EA;
+	border: 1px solid #A8D0EA;
+	border-radius: 7px;
+}
+.reg-button{
+	background-color: #E9D9E1;
+}
+.reg-button2{
+	background-color: #E9D9E1;
+}
+.reg-form2{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 180px;
+	margin-left: 260px;
+	width: 300px;
+	color: #A8D0EA;
+	border: 1px solid #A8D0EA;
+	border-radius: 7px;
+}
+.reg-errors{
+	color: #C08EA7;
+}
+
+.imageUpload{
+	display: inline-block;
+	color: #6CBBD1;
+	/* border: 1px solid #6CBBD1; */
+	margin-left: 35%;
+	margin-top: 50px;
+}
+.song-title{
+	color: #89C7DD;
+	display: inline-block;
+	font-family: 'Rubik Mono One', sans-serif;
+}
+.songList{
+	display:block;
+	width: 700px;
+	margin-left: 28%;
+	margin-top: 40px;
+	border-radius: 15px;
+	background-image: linear-gradient(#343A40, black, #343A40);
+}
+.low-header{
+	height: 400px;
+	background-color: linear-gradient(#010101,#5EADC6);
+}
+
+.song-box{
+	color: #c8def1;
+}
+.song-info{
+	background-image: linear-gradient(#343A40, black, #343A40);
+}
+
+.tag{
+	font-family: 'Rubik Mono One', sans-serif;
+	
+}
+.checked {
+	color: orange;
+}
+.rating{
+	display: block;
+	margin-left: 49%; 
+	margin-top: 60px; 
+	position: absolute;
+	transform: translate(-50%, -50%) rotateY(180deg);
+	display: flex;
+}
+.rating input{
+	display: none; 
+
+	
+}
+.rating label{
+	display: block;
+	cursor: pointer;
+	width: 50px;
+	font-size: 30px;
+	/* background: #ccc; */
+}
+.rating label:before{
+	content: '\f005';
+	font-family: fontAwesome;
+	position: absolute;
+	display: block;
+ 	color: white;
+}
+.rating label:after{
+	content: '\f005';
+	font-family: fontAwesome;
+	position: relative;
+	display: block;
+	color: #1f9cff;
+	top: 0;
+	opacity: 0;
+	transition: .5s;
+	text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after
+{
+	opacity: 1;
+}
+.rate {
+	color: #6CBBD1;
+	
+}
+
+
+.low-title{
+	display: inline-block;
+	font-size: 30px;
+	font-family: 'Rubik Mono One', sans-serif;
+	margin-left: 30%;
+	margin-top: 30px;
+}
+.search{
+	margin-left: 10%;
+	box-shadow: 10px 10px 5px grey;
+	display: inline-block;
+	
+}
+h2 {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 4s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+section {
+  position: relative;
+}
+
+section img {
+  position: absolute;
+}
+.middle {
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-direction: alternate;
+}
+
+.top {
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-direction: alternate;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+#scroller {
+     position: relative;
+}
+#scroller .innerScrollArea {
+     overflow: hidden;
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+}
+#scroller ul {
+     padding: 0;
+     margin: 0;
+     position: relative;
+}
+#scroller li {
+     padding: 0;
+     margin: 0;
+     list-style-type: none;
+     position: absolute;
+}
